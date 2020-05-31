@@ -1,0 +1,90 @@
+.asideContainer {
+  grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 270px;
+}
+
+.figuerContainar {
+  width: 90%;
+}
+
+.profilePhoto {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.figureCaption {
+  border: 1px solid #e1e4e8;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-family: systemUI;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.asideHeader {
+  font-family: systemUI;
+  width: 90%;
+}
+
+.asideHeader > h1 {
+  font-size: 26px;
+  margin: 15px 0 0 0;
+}
+
+.asideHeader > h2 {
+  color: #666;
+  margin: 0 0 30px 0; 
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.detailsContainer {
+  width: 90%;
+}
+
+.detailsContainer__asideButton {
+  appearance: none;
+  background-color: #e6ebf1;
+  background-image: linear-gradient(-180deg,#f0f3f6,#e6ebf1 90%);
+  background-position: -.5em;
+  border: 1px solid rgba(27, 31, 35, .2);
+  border-radius: 3px;
+  color: #24292e;
+  cursor: pointer;
+  font-family: systemUI;
+  font-size: 14px;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+.infoText {
+  color: #24292e;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+}
+
+.detailsContainer__orgs {
+  font-size: 16px !important;
+}
+
+.orgsLogos {
+  width: 32px;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 1023px) {
+  .asideContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  .figuerContainar {
+    width: 50%;
+    margin: 20px auto;
+  }
+}

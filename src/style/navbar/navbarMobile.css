@@ -1,0 +1,76 @@
+.navbarMobile {
+  background-color: #24292E;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: systemUI;
+  font-size: 14px;
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbarMobile {
+    display: none;
+  }
+}
+
+.mobileMenuLinks {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5%;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.mobileMenuButton {
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.toogleMenu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 38px;
+  font-family: systemUI;
+  background-color: #24292E;
+  color: #ffffff;
+  list-style: none;
+  left: 0;
+  right: 0;
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+
+[aria-hidden='true'],
+[data-a11y-toggle]:not([aria-controls]) {
+  display: none;
+}
+
+.toogleMenu__item {
+  padding: 15px 0;
+  border-bottom: 1px solid #e1e4e8;
+  border-color: hsla(0,0%,100%,.15);
+  width: 90%;
+}
+
+.toogleMenu__item:last-of-type {
+  border: none;
+}
+
+.verticalCenter {
+  display: inline-block;
+}
+
+.avatarMobile {
+  vertical-align: middle;
+}

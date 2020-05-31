@@ -1,0 +1,48 @@
+.navbarDesktop {
+  background-color: #24292E;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: systemUI;
+  font-size: 14px;
+  height: 100%;
+}
+
+.menuLinks {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menuLinks__item {
+  margin: 0 10px;
+}
+
+.menuLinks__item__input {
+  height: 28px;
+  background-color: #404448;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 0 8px;
+  width: 300px;
+}
+
+.menuLinks__item__input:focus {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 1023px) {
+  .navbarDesktop {
+    display: none;
+  }
+
+  .menuLinks__item__input {
+    width: 100%;
+    height: 28px;
+  }
+}

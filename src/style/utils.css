@@ -1,0 +1,32 @@
+.border {
+  border-radius: 3px;
+  border: none;
+}
+
+.link {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.margin-vertical-small {
+  margin: 6px 0 !important;
+}
+
+.divider {
+  border: 1px solid #e1e4e8;
+  background-color: transparent;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e1e4e8 !important;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer_logo {
+    display: none;
+  }
+}

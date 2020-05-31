@@ -8,3 +8,13 @@
 @import './overview.css';
 @import './repositories.css';
 @import './footer.css';
+
+@font-face {
+  font-family: menlo;
+  src: url('../assets/font/menlo.ttf');
+}
+
+@font-face {
+  font-family: systemUI;
+  src: url('../assets/font/systemUi.otf');
+}

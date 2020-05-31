@@ -1,0 +1,76 @@
+.contentContainer {
+  grid-area: content;
+}
+
+.tabNavigation {
+  font-family: Helvetica, sans-serif;
+  margin-top: 32px;
+  padding: 17px 0;
+  border-bottom: 1px solid #d1d5da;
+}
+
+.tabNavigation__tabItem {
+  text-align: center;
+  color: #24292e;
+  font-size: 14px;
+  text-decoration: none;
+  margin-right: 16px;
+  padding: 16px 8px;
+}
+
+.selected {
+  font-weight: bold;
+  border-bottom: 2px solid #e36209;
+}
+
+.pinnedContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+  padding-left: 0;
+}
+
+.pinnedContent__repoBox {
+  font-family: Helvetica, sans-serif;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  margin: 8px 0;
+  padding: 16px;
+  width: 45%;
+  position: relative;
+}
+
+.pinnedContent__repoBox__title {
+  color: #0366d6;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.pinnedContent__repoBox__subtitle {
+  color: #586069;
+  font-size: 12px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.pinnedContent__repoBox__info {
+  color: #586069;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.hamburguerBoxIcon {
+  position: absolute;
+  top: 18px;
+  right: 16px;
+}
+
+@media screen and (max-width: 1023px) {
+  .pinnedContent__repoBox {
+    width: 100%;
+  }
+}
