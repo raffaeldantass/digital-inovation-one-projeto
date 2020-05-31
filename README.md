@@ -1,4 +1,5 @@
 ### Projeto - Réplica da Home do Github
+##### O objetivo é praticarmos e entendermos propriedades importantes do CSS e como fazer um HTML bem estruturado e acessível para tecnologias assistivas, como leitores de tela. 
 Bem vindo! Aqui você encontra as instruções nencessárias para preparar seu ambiente de desenvolvimento e baixar os arquivos deste projeto. Vamos fazer juntos através das aulas deste mini curso! 
 
 #### Instalação dos arquivos necessários
