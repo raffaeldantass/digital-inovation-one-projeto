@@ -1,6 +1,6 @@
 ### Projeto - Réplica da Home do Github
 ##### O objetivo é praticarmos e entendermos propriedades importantes do CSS e como fazer um HTML bem estruturado e acessível para tecnologias assistivas, como leitores de tela. 
-Bem vindo! Aqui você encontra as instruções nencessárias para preparar seu ambiente de desenvolvimento e baixar os arquivos deste projeto. Vamos fazer juntos através das aulas deste mini curso! 
+Bem vindo! Aqui você encontra as instruções nencessárias para preparar seu ambiente de desenvolvimento e baixar os arquivos deste projeto. Vamos fazer juntos através das aulas deste mini curso! Por conta da didática seremos bastante repetitivos, é importante entendermos e praticarmos os conceitos aqui apresentados, mas sinta-se a vontade para melhorar o projeto da sua maneira e tentar realizar desafios que vão além do curso! 
 
 #### Instalação dos arquivos necessários
 Se você não tem o Node instalado na sua máquina, por favor, instale, siga este [link aqui](https://nodejs.org/en/download/), veja qual é o seu sistema operacional e baixe o respectivo instalador, caso queira saber mais sobre o que é o NodeJS, você pode checar neste [tutorial](https://nodejs.org/en/about/). 
