@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="./assets/githubLogo.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/global.css">
+  <title>Home Gitub </title>
+</head>
+<body>
+  <div role="banner">
+    <nav class="navbarDesktop">
+      <ul class="menuLinks">
+        <li class="menuLinks__item"> <img width="30" src="./assets/githubLogo.svg" alt="Github logo"> </li>
+        <li class="menuLinks__item"> 
+          <label>
+            <input id="Busca" class="border menuLinks__item__input" type="search" aria-label="Search or jump to..." placeholder="Search or jump to...">
+          </label>
+        </li>
+        <li class="menuLinks__item"> Pull Requests </li>
+        <li class="menuLinks__item"> Issues </li>
+        <li class="menuLinks__item"> Marketplace </li>
+        <li class="menuLinks__item"> Explore </li>
+      </ul>
+      <ul class="menuLinks">
+        <li class="menuLinks__item"> <img width="15" src="./assets/bellIcon.svg" alt="Icone de notificação"> </li>
+        <li class="menuLinks__item"> <img width="15" src="./assets/plusIcon.svg" alt="Botão de dropdown"> </li>
+        <li class="menuLinks__item"> <img width="20" class="border" src="./assets/navBarPhoto.png" alt="Foto de perfil"> </li>
+      </ul>
+    </nav>
+    <nav class="navbarMobile">
+      <ul class="mobileMenuLinks">
+        <li> 
+          <button data-a11y-toggle="target" class="mobileMenuButton" aria-label="Navegação alternada" aria-expanded="false">
+            <img src="./assets/hamburguerIcon.svg" alt="Icone para botão de abrir e fechar menu">
+          </button>  
+        </li>
+        <li> <img width="30" src="./assets/githubLogo.svg" alt="Github logo"> </li>
+        <li> <img class="repositorieList__graph" src="./assets/bellIcon.svg" alt="Icone de notificação"> </li>
+      </ul>
+      <ul id="target" class="toogleMenu">
+        <li class="toogleMenu__item">
+          <label>
+            <input id="Busca" class="border menuLinks__item__input" type="search" aria-label="Search or jump to..." placeholder="Search or jump to...">
+          </label>
+        </li>
+        <li class="toogleMenu__item"> Dashboard </li>
+        <li class="toogleMenu__item"> Pull requests </li>
+        <li class="toogleMenu__item"> Issues </li>
+        <li class="toogleMenu__item"> Marketplace </li>
+        <li class="toogleMenu__item"> Explore </li>
+        <li class="toogleMenu__item verticalCenter"> 
+          <img width="15" class="border avatarMobile" src="./assets/navBarPhoto.png" alt="Foto de perfil"> 
+          meu_Usuario 
+        </li>
+        <li class="toogleMenu__item">
+          <img width="16" class="border avatarMobile" src="./assets/signout.svg" alt="Foto de perfil">
+          Sign out 
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <main class="container">
+    <div class="asideContainer" role="complementary">
+      <figure class="figuerContainar">
+        <img class="profilePhoto" width="250" src="./assets/profilePhoto.png" alt="Foto de perfil">
+        <figcaption class="figureCaption" > &#128512; Descrição qualquer </figcaption>
+      </figure>
+      <header class="asideHeader">
+        <h1> Rafael Dantas </h1>
+        <h2> raffaeldantass </h2>
+      </header>
+      <div class="detailsContainer">
+        <button class="detailsContainer__asideButton"> Edit Profile </button>
+        <p class="infoText"> Front End Developer </p>
+        <p class="infoText"> &#128205; São Paulo </p>
+        <hr class="divider">
+        <h3 class="detailsContainer__orgs infoText"> Organizations </h3>
+        <div>
+          <img class="orgsLogos" src="./assets/navBarPhoto.png" alt="Org 1">
+          <img class="orgsLogos" src="./assets/navBarPhoto.png" alt="Org 2">
+        </div>
+      </div>
+    </div>
+    <section class="contentContainer">
+      <nav class="tabNavigation" role="tablist" aria-label="User projects">
+        <a class="tabNavigation__tabItem selected" id="tab-1" tabindex="0" role="tab" aria-controls="panel-1" href="#"> Overview </a>
+        <a class="tabNavigation__tabItem" id="tab-2" tabindex="-1" role="tab" aria-controls="panel-2" href="#"> Repositories     </a>
+        <a class="tabNavigation__tabItem" id="tab-2" tabindex="-1" role="tab" aria-controls="panel-3" href="#"> Projects         </a>
+        <a class="tabNavigation__tabItem" id="tab-2" tabindex="-1" role="tab" aria-controls="panel-4" href="#"> Packages         </a>
+        <a class="tabNavigation__tabItem" id="tab-2" tabindex="-1" role="tab" aria-controls="panel-5" href="#"> Stars            </a>
+        <a class="tabNavigation__tabItem" id="tab-2" tabindex="-1" role="tab" aria-controls="panel-6" href="#"> Followers        </a>
+        <a class="tabNavigation__tabItem" id="tab-2" tabindex="-1" role="tab" aria-controls="panel-7" href="#"> Following        </a>
+      </nav>
+
+      <section  id="panel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1">
+        <ul class="pinnedContent">
+          <li class="pinnedContent__repoBox"> 
+            <p class="pinnedContent__repoBox__title"> 📕 projeto-legal-um </p> 
+            <p class="pinnedContent__repoBox__subtitle"> Projeto sobre qualquer tecnologia </p> 
+            <span> 
+              <p class="inline pinnedContent__repoBox__info"> 🔴 JavaScript </p>  
+              <p class="inline pinnedContent__repoBox__info"> ★ 1 </p> 
+            </span>
+            <img width="10" class="hamburguerBoxIcon" src="./assets/boxHamburguer.svg" alt="Mover repositorio">
+          </li>
+          <li class="pinnedContent__repoBox">
+            <p class="pinnedContent__repoBox__title"> 📕 projeto-bacana-dois </p> 
+            <p class="pinnedContent__repoBox__subtitle"> Projeto sobre React </p> 
+            <span> 
+              <p class="inline pinnedContent__repoBox__info"> 🔴 JavaScript </p>  
+              <p class="inline pinnedContent__repoBox__info"> ★ 1 </p> 
+            </span>
+            <img width="10" class="hamburguerBoxIcon" src="./assets/boxHamburguer.svg" alt="Mover repositorio">
+          </li>
+          <li class="pinnedContent__repoBox">
+            <p class="pinnedContent__repoBox__title"> 📕 projeto-interessante-três </p> 
+            <p class="pinnedContent__repoBox__subtitle"> Projeto sobre NodeJS </p> 
+            <span> 
+              <p class="inline pinnedContent__repoBox__info"> 🔴 JavaScript </p>  
+              <p class="inline pinnedContent__repoBox__info"> ★ 1 </p> 
+            </span>
+            <img width="10" class="hamburguerBoxIcon" src="./assets/boxHamburguer.svg" alt="Mover repositorio">
+          </li>
+          <li class="pinnedContent__repoBox">
+            <p class="pinnedContent__repoBox__title"> 📕 projeto-maluco-quatro </p> 
+            <p class="pinnedContent__repoBox__subtitle"> Pesquisa sobre JS </p> 
+            <span> 
+              <p class="inline pinnedContent__repoBox__info"> 🔴 JavaScript </p>  
+              <p class="inline pinnedContent__repoBox__info"> ★ 1 </p> 
+            </span>
+            <img width="10" class="hamburguerBoxIcon" src="./assets/boxHamburguer.svg" alt="Mover repositorio">
+          </li>
+          <li class="pinnedContent__repoBox">
+            <p class="pinnedContent__repoBox__title"> 📕 estudo-bacana-um </p> 
+            <p class="pinnedContent__repoBox__subtitle"> Estudo sobre HTML & CSS </p> 
+            <span> 
+              <p class="inline pinnedContent__repoBox__info"> 🔵 CSS </p>  
+              <p class="inline pinnedContent__repoBox__info"> ★ 1 </p> 
+            </span>
+            <img width="10" class="hamburguerBoxIcon" src="./assets/boxHamburguer.svg" alt="Mover repositorio">
+          </li>
+          <li class="pinnedContent__repoBox">
+            <p class="pinnedContent__repoBox__title"> 📕 projeto-incrível-sete </p> 
+            <p class="pinnedContent__repoBox__subtitle"> Projeto qualquer aqui </p> 
+            <span> 
+              <p class="inline pinnedContent__repoBox__info"> 🔴 JavaScript </p>  
+              <p class="inline pinnedContent__repoBox__info"> ★ 5 </p> 
+            </span>
+            <img width="10" class="hamburguerBoxIcon" src="./assets/boxHamburguer.svg" alt="Mover repositorio">
+          </li>
+        </ul>
+      </section>
+
+      <section id="panel-2" role="tabpanel" tabindex="-1" aria-labelledby="tab-2" hidden>
+        <form class="formWrapper border-bottom" aria-label="Repositories" role="search">
+          <input class="formWrapper__searchInput" type="search" placeholder="Find a repository" aria-label="Find a repository" name="searchRepo" id="searchRepo">
+          <div class="btnWrapper">
+            <div class="btnWrapper__btnFilter">
+              <summary class="formWrapper__repoType">
+                <span>Type:</span>
+                <span> All &#9662; </span>
+              </summary>
+
+              <summary class="formWrapper__repoType">
+                <span>Language:</span>
+                <span> All &#9662; </span>
+              </summary>
+            </div>
+
+            <a class="formWrapper__btnNew" type="submit"> 📕 New </a>
+          </div>
+        </form>
+
+        <ul class="repositorieList">
+          <li class="repositorieList__repoBox border-bottom"> 
+            <p class="repositorieList__repoBox__title"> projeto-legal-um <span class="repositorieList__repoBox__tagLabel"> Public </span></p> 
+            <p class="repositorieList__repoBox__subtitle"> Projeto sobre qualquer tecnologia </p> 
+            <span> 
+              <p class="inline repositorieList__repoBox__info"> 🔴 JavaScript </p>  
+              <p class="inline repositorieList__repoBox__info"> ⚖ MIT License </p> 
+              <p class="inline repositorieList__repoBox__info"> Updated 10 days ago</p> 
+            </span>
+            <button class="repositorieList__btn"> ★ Star </button>
+            <hr class="repositorieList__graph" />
+          </li>
+
+          <li class="repositorieList__repoBox border-bottom"> 
+            <p class="repositorieList__repoBox__title"> projeto-legal-um <span class="repositorieList__repoBox__tagLabel"> Public </span></p> 
+            <p class="repositorieList__repoBox__subtitle"> Projeto sobre qualquer tecnologia </p> 
+            <span> 
+              <p class="inline repositorieList__repoBox__info"> 🔴 JavaScript </p>  
+              <p class="inline repositorieList__repoBox__info"> ⚖ MIT License </p> 
+              <p class="inline repositorieList__repoBox__info"> Updated 10 days ago</p> 
+            </span>
+            <button class="repositorieList__btn"> ★ Star </button>
+            <hr class="repositorieList__graph" />
+          </li>
+
+          <li class="repositorieList__repoBox border-bottom"> 
+            <p class="repositorieList__repoBox__title"> projeto-legal-um <span class="repositorieList__repoBox__tagLabel"> Public </span></p> 
+            <p class="repositorieList__repoBox__subtitle"> Projeto sobre qualquer tecnologia </p> 
+            <span> 
+              <p class="inline repositorieList__repoBox__info"> 🔵 HTML </p>  
+              <p class="inline repositorieList__repoBox__info"> ⚖ MIT License </p> 
+              <p class="inline repositorieList__repoBox__info"> Updated 10 days ago</p> 
+            </span>
+            <button class="repositorieList__btn"> ★ Star </button>
+            <hr class="repositorieList__graph" />
+          </li>
+
+          <li class="repositorieList__repoBox border-bottom"> 
+            <p class="repositorieList__repoBox__title"> projeto-legal-um <span class="repositorieList__repoBox__tagLabel"> Private </span></p> 
+            <p class="repositorieList__repoBox__subtitle"> Projeto sobre qualquer tecnologia </p> 
+            <span> 
+              <p class="inline repositorieList__repoBox__info"> ⚫ CSS </p>  
+              <p class="inline repositorieList__repoBox__info"> ⚖ MIT License </p> 
+              <p class="inline repositorieList__repoBox__info"> Updated 10 days ago</p> 
+            </span>
+            <button class="repositorieList__btn"> ★ Star </button>
+            <hr class="repositorieList__graph" />
+          </li>
+
+          <li class="repositorieList__repoBox border-bottom"> 
+            <p class="repositorieList__repoBox__title"> projeto-legal-um <span class="repositorieList__repoBox__tagLabel"> Private </span></p> 
+            <p class="repositorieList__repoBox__subtitle"> Projeto sobre qualquer tecnologia </p> 
+            <span> 
+              <p class="inline repositorieList__repoBox__info"> ⚫ CSS </p>  
+              <p class="inline repositorieList__repoBox__info"> ⚖ MIT License </p> 
+              <p class="inline repositorieList__repoBox__info"> Updated 10 days ago</p> 
+            </span>
+            <button class="repositorieList__btn"> ★ Star </button>
+            <hr class="repositorieList__graph" />
+          </li>
+
+          <li class="repositorieList__repoBox border-bottom"> 
+            <p class="repositorieList__repoBox__title"> projeto-legal-um <span class="repositorieList__repoBox__tagLabel"> Public </span></p> 
+            <p class="repositorieList__repoBox__subtitle"> Projeto sobre qualquer tecnologia </p> 
+            <span> 
+              <p class="inline repositorieList__repoBox__info"> 🔵 HTML </p>  
+              <p class="inline repositorieList__repoBox__info"> ⚖ MIT License </p> 
+              <p class="inline repositorieList__repoBox__info"> Updated 10 days ago</p> 
+            </span>
+            <button class="repositorieList__btn"> ★ Star </button>
+            <hr class="repositorieList__graph" />
+          </li>
+
+          <li class="repositorieList__repoBox border-bottom"> 
+            <p class="repositorieList__repoBox__title"> projeto-legal-um <span class="repositorieList__repoBox__tagLabel"> Private </span></p> 
+            <p class="repositorieList__repoBox__subtitle"> Projeto sobre qualquer tecnologia </p> 
+            <span> 
+              <p class="inline repositorieList__repoBox__info"> 🔴 JavaScript </p>  
+              <p class="inline repositorieList__repoBox__info"> ⚖ MIT License </p> 
+              <p class="inline repositorieList__repoBox__info"> Updated 10 days ago</p> 
+            </span>
+            <button class="repositorieList__btn"> ★ Star </button>
+            <hr class="repositorieList__graph" />
+          </li>
+        </ul>
+      </section>
+
+      <section id="panel-3" role="tabpanel" tabindex="-1" aria-labelledby="tab-3" hidden>
+        <h2> Projects </h2>
+      </section>
+
+      <section id="panel-4" role="tabpanel" tabindex="-1" aria-labelledby="tab-4" hidden>
+        <h2> Packages </h2>
+      </section>
+
+      <section id="panel-5" role="tabpanel" tabindex="-1" aria-labelledby="tab-5" hidden>
+        <h2> ★ Stars </h2>
+      </section>
+
+      <section id="panel-6" role="tabpanel" tabindex="-1" aria-labelledby="tab-6" hidden>
+        <h2> Followers </h2>
+      </section>
+
+      <section id="panel-7" role="tabpanel" tabindex="-1" aria-labelledby="tab-7" hidden>
+        <h2> Following </h2>
+      </section>
+    </section>
+  </main>
+  <footer role="contentinfo">
+    <nav class="footer" aria-labelledby="footer navigation">
+      <ul class="menuLinks margin-vertical-small">
+        <li class="menuLinks__item">© 2020 Github, Inc</li>
+        <li class="menuLinks__item"><a href="#" class="link"> Terms    </a></li>
+        <li class="menuLinks__item"><a href="#" class="link"> Privacy  </a></li>
+        <li class="menuLinks__item"><a href="#" class="link"> Security </a></li>
+        <li class="menuLinks__item"><a href="#" class="link"> ★ Status   </a></li>
+        <li class="menuLinks__item"><a href="#" class="link"> Help     </a></li>
+      </ul>
+      <img class="footer_logo" src="./assets/githubLogo_footer.svg" alt="Github Logo">
+      <ul class="menuLinks margin-vertical-small">
+        <li class="menuLinks__item"><a href="#" class="link"> Contact Github </a></li>
+        <li class="menuLinks__item"><a href="#" class="link"> Pricing        </a></li>
+        <li class="menuLinks__item"><a href="#" class="link"> API            </a></li>
+        <li class="menuLinks__item"><a href="#" class="link"> Trainning      </a></li>
+        <li class="menuLinks__item"><a href="#" class="link"> Blog           </a></li>
+        <li class="menuLinks__item"><a href="#" class="link"> About          </a></li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="./scripts/toogleMenu.js"></script>
+  <script src="./scripts/toogleTab.js"></script>
+</body>
+</html>

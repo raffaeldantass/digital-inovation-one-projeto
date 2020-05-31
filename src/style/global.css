@@ -1,0 +1,10 @@
+@import './normalize.css';
+@import './utils.css';
+@import './grid.css';
+@import './navbar/navbarDesktop.css';
+@import './navbar/navbarMobile.css';
+@import './main.css';
+@import './aside.css';
+@import './overview.css';
+@import './repositories.css';
+@import './footer.css';
